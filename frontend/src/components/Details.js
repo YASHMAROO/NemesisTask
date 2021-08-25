@@ -55,6 +55,18 @@ const Details = () => {
 
     return (
         <div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/screen2/details_table">Users Table</a>
+                    </li>
+                    <li>
+                        <a href="/screen2">Add User</a>
+                    </li>
+                </ul>
+            </nav>
+            <br />
+            <br />
             <h1>Enter the user Details</h1>
             <form onSubmit={handleSubmit}>
                 <div>
